@@ -1,0 +1,46 @@
+n,side,greek,english,lines,ships,leaders_greek,leaders_english,places,film_time_s
+1,achaean,ΒΟΙΩΤΟΙ,The Boeotians,494-510,50,Πηνέλεως; Λήϊτος; Ἀρκεσίλαος; Προθοήνωρ; Κλονίος,Peneleos; Leitus; Arcesilaus; Prothoenor; Clonius,Hyria; Aulis; Schoinos; Skolos; Eteonos; Thespeia; Graia; Mykalessos; Harma; Eilesion; Erythrai; Eleon; Hyle; Peteon; Okalea; Medeon; Kopai; Eutresis; Thisbe; Koroneia; Haliartos; Plataia; Glisas; Hypothebai; Onchestos; Arne; Mideia; Nisa; Anthedon,93
+2,achaean,ΜΙΝΥΑΙ,The Minyans of Orchomenos,511-516,30,Ἀσκάλαφος; Ἰάλμενος,Ascalaphus; Ialmenus,Aspledon; Orchomenos,166
+3,achaean,ΦΩΚΗΕΣ,The Phocians,517-526,40,Σχεδίος; Ἐπίστροφος,Schedius; Epistrophus,Kyparissos; Pytho (Delphi); Krisa; Daulis; Panopeus; Anemoreia; Hyampolis; The river Kephisos; Lilaia,194
+4,achaean,ΛΟΚΡΟΙ,The Locrians,527-535,40,Αἴας,Ajax son of Oileus,Kynos; Opous; Kalliaros; Bessa; Skarphe; Augeiai; Tarphe; Thronion; The river Boagrios,238
+5,achaean,ΑΒΑΝΤΕΣ,The Abantes of Euboea,536-545,40,Ἐλεφήνωρ,Elephenor,Euboea; Chalkis; Eretria; Histiaia; Kerinthos; Dion; Karystos; Styra,279
+6,achaean,ΑΘΗΝΑΙΟΙ,The Athenians,546-556,50,Μενεσθεύς,Menestheus,Athens,322
+7,achaean,ΣΑΛΑΜΙΝΙΟΙ,The Salaminians,557-558,12,Αἴας,Ajax son of Telamon,Salamis,373
+8,achaean,ΑΡΓΕΙΟΙ,The Argives,559-568,80,Διομήδης; Σθένελος; Εὐρύαλος,Diomedes; Sthenelus son of Capaneus; Euryalus son of Mecisteus,Argos; Tiryns; Hermione; Asine; Troizen; Eionai; Epidauros; Aigina; Mases,394
+9,achaean,ΜΥΚΗΝΑΙΟΙ,The Mycenaeans,569-580,100,Ἀγαμέμνων,Agamemnon son of Atreus,Mycenae; Corinth; Kleonai; Orneiai; Araithyrea; Sikyon; Hyperesia; Gonoessa; Pellene; Aigion; Aigialos; Helike,440
+10,achaean,ΛΑΚΕΔΑΙΜΟΝΙΟΙ,The Lacedaemonians,581-590,60,Μενέλαος,"Menelaus, his brother",Lacedaemon; Pharis; Sparta; Messe; Bryseiai; Augeiai; Amyklai; Helos; Laas; Oitylos,492
+11,achaean,ΠΥΛΙΟΙ,The Pylians,591-602,90,Νέστωρ,Nestor of Gerenia,Pylos; Arene; Thryon; Aipy; Kyparisseeis; Amphigeneia; Pteleos; Helos; Dorion,538
+12,achaean,ΑΡΚΑΔΕΣ,The Arcadians,603-614,60,Ἀγαπήνωρ,Agapenor son of Ancaeus,Arcadia; Mount Kyllene; The tomb of Aipytos; Pheneos; Orchomenos; Rhipe; Stratie; Enispe; Tegea; Mantineia; Stymphalos; Parrhasia,591
+13,achaean,ΕΠΕΙΟΙ,The Epeians of Elis,615-624,40,Ἀμφίμαχος; Θάλπιος; Διώρης; Πολύξεινος,Amphimachus son of Cteatus; Thalpius son of Eurytus; Diores son of Amarynceus; Polyxeinus son of Agasthenes,Bouprasion; Elis; Hyrmine; Myrsinos; The Olenian Rock; Alesion,644
+14,achaean,ΔΟΥΛΙΧΙΟΝ,Dulichium and the Echinades,625-630,40,Μέγης,Meges son of Phyleus,Dulichium; The Echinades,698
+15,achaean,ΚΕΦΑΛΛΗΝΕΣ,The Cephallenians,631-637,12,Ὀδυσσεύς,Odysseus,Ithaca; Mount Neritos; Krokyleia; Aigilips; Zakynthos; Samos (Kefalonia); The mainland; The shores opposite,726
+16,achaean,ΑΙΤΩΛΟΙ,The Aetolians,638-644,40,Θόας,Thoas son of Andraemon,Pleuron; Olenos; Pylene; Chalkis; Calydon,758
+17,achaean,ΚΡΗΤΕΣ,The Cretans,645-652,80,Ἰδομενεύς; Μηριόνης,Idomeneus; Meriones,Knossos; Gortyn; Lyktos; Miletos; Lykastos; Phaistos; Rhytion; Crete,801
+18,achaean,ΡΟΔΙΟΙ,The Rhodians,653-670,9,Τληπόλεμος,Tlepolemus son of Herakles,Rhodes; Lindos; Ialysos; Kameiros,837
+19,achaean,ΝΙΡΕΥΣ,Nireus of Syme,671-675,3,Νιρεύς,Nireus son of Charopus,Syme,917
+20,achaean,ΚΩΣ,Kos and the islands,676-680,30,Φείδιππος; Ἄντιφος,Pheidippus son of Thessalus; Antiphus son of Thessalus,Nisyros; Karpathos; Kasos; Kos; The Kalydnian isles,941
+21,achaean,ΜΥΡΜΙΔΟΝΕΣ,The Myrmidons of Achilles,681-694,50,Ἀχιλλεύς,Achilles son of Peleus,Pelasgian Argos; Alos; Alope; Trachis; Phthia; Hellas,975
+22,achaean,ΦΥΛΑΚΗ,Phylake: Protesilaus and Podarces,695-710,40,Πρωτεσίλαος; Ποδάρκης,"Protesilaus, fallen at Troy; Podarces, his brother",Phylake; Pyrasos; Iton; Antron; Pteleon,1037
+23,achaean,ΦΕΡΑΙ,Pherai and Iolkos: Eumelus,711-715,11,Εὔμηλος,Eumelus son of Admetus,Pherai; Lake Boibeis; Boibe; Glaphyrai; Iolkos,1108
+24,achaean,ΜΗΘΩΝΗ,Methone: the men of Philoctetes,716-728,7,Φιλοκτήτης; Μέδων,"Philoctetes, left on Lemnos; Medon son of Oileus",Methone; Thaumakia; Meliboia; Olizon,1131
+25,achaean,ΤΡΙΚΚΗ,Trikka: the sons of Asklepios,729-733,30,Ποδαλείριος; Μαχάων,Podaleirius son of Asklepios; Machaon son of Asklepios,Trikka; Ithome; Oichalia,1189
+26,achaean,ΟΡΜΕΝΙΟΝ,Ormenion: Eurypylus,734-737,40,Εὐρύπυλος,Eurypylus son of Euaemon,Ormenion; The spring Hypereia; Asterion; Titanos,1212
+27,achaean,ΑΡΓΙΣΣΑ,Argissa and Oloosson: the Lapiths,738-747,40,Πολυποίτης; Λεοντεύς,Polypoetes son of Peirithous; Leonteus son of Coronus,Argissa; Gyrtone; Orthe; Elone; Oloosson,1232
+28,achaean,ΕΝΙΗΝΕΣ ΚΑΙ ΠΕΡΑΙΒΟΙ,Gouneus: the Enienes and Perrhaebians,748-755,22,Γουνεύς,Gouneus,Kyphos; Dodona; The Titaressos; The Peneios,1277
+29,achaean,ΜΑΓΝΗΤΕΣ,The Magnetes,756-759,40,Πρόθοος,Prothous son of Tenthredon,The Peneios; Mount Pelion,1313
+30,trojan,ΤΡΩΕΣ,The Trojans: Hector,816-818,,Ἕκτωρ,Hector son of Priam,Troy,1341
+31,trojan,ΔΑΡΔΑΝΙΟΙ,The Dardanians: Aeneas,819-823,,Αἰνείας; Ἀρχέλοχος; Ἀκάμας,Aeneas son of Anchises; Archelochus son of Antenor; Acamas son of Antenor,Mount Ida,1356
+32,trojan,ΖΕΛΕΙΑ,Zeleia: Pandarus,824-827,,Πάνδαρος,Pandarus son of Lycaon,Zeleia; The Aesepus,1379
+33,trojan,ΑΔΡΗΣΤΕΙΑ,Adrasteia: the sons of Merops,828-834,,Ἄδρηστος; Ἄμφιος,Adrastus son of Merops; Amphius son of Merops,Adrasteia; Apaisos; Pityeia; Mount Tereia,1398
+34,trojan,ΑΡΙΣΒΗ,Arisbe and the Hellespont: Asius,835-839,,Ἄσιος,Asius son of Hyrtacus,Perkote; The Praktios; Sestos; Abydos; Arisbe; The Selleeis,1428
+35,trojan,ΠΕΛΑΣΓΟΙ,The Pelasgians of Larisa,840-843,,Ἱππόθοος; Πύλαιος,Hippothous son of Lethus; Pylaeus son of Lethus,Larisa,1451
+36,trojan,ΘΡΗΙΚΕΣ,The Thracians,844-845,,Ἀκάμας; Πείροος,Acamas; Peirous,The Thracian Chersonese; The Hellespont,1470
+37,trojan,ΚΙΚΟΝΕΣ,The Cicones: Euphemus,846-847,,Εὔφημος,Euphemus son of Troezenus,The Cicones,1481
+38,trojan,ΠΑΙΟΝΕΣ,The Paeonians: Pyraechmes,848-850,,Πυραίχμης,Pyraechmes,Amydon; The Axios,1490
+39,trojan,ΠΑΦΛΑΓΟΝΕΣ,The Paphlagonians: Pylaemenes,851-855,,Πυλαιμένης,Pylaemenes,The Eneti; Kytoros; Sesamos; The Parthenios; Kromna; Aigialos; Erythinoi,1505
+40,trojan,ΑΛΙΖΩΝΕΣ,The Halizones,856-857,,Ὀδίος; Ἐπίστροφος,Odius; Epistrophus,Alybe,1529
+41,trojan,ΜΥΣΟΙ,The Mysians,858-861,,Χρόμις; Ἔννομος,Chromis; Ennomus the augur,The Mysians,1540
+42,trojan,ΦΡΥΓΕΣ,The Phrygians,862-863,,Φόρκυς; Ἀσκάνιος,Phorcys; Ascanius,Askania,1559
+43,trojan,ΜΗΙΟΝΕΣ,The Maeonians,864-866,,Μέσθλης; Ἄντιφος,Mesthles son of Talaemenes; Antiphus son of Talaemenes,The Maeonians; The Gygaean lake; Mount Tmolus,1570
+44,trojan,ΚΑΡΕΣ,The Carians,867-875,,Νάστης; Ἀμφίμαχος,Nastes son of Nomion; Amphimachus son of Nomion,The Carians; Miletus; Mount Phthires; The Maeander; Mount Mycale,1585
+45,trojan,ΛΥΚΙΟΙ,The Lycians: Sarpedon and Glaucus,876-877,,Σαρπηδών; Γλαῦκος,Sarpedon; Glaucus,Lycia; The Xanthos,1625

@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>The Catalogue of Ships · Homer, Iliad 2</title>
+<meta name="description" content="Homer’s Catalogue of Ships (Iliad 2.484–759) and the Trojan Catalogue (2.816–877): every place on one map, every contingent with its leaders and ships, and the whole text in Greek and English.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Catalogue of Ships">
+<meta property="og:description" content="Homer’s Catalogue of Ships and the Trojan Catalogue: all 228 places on one map, the 29 contingents and 16 Trojan peoples with their leaders and ships, and the whole text in Greek and English.">
+<meta property="og:image" content="https://iosiflazaridis.github.io/catalogue-of-ships/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://iosiflazaridis.github.io/catalogue-of-ships/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Catalogue of Ships">
+<meta name="twitter:description" content="Homer’s Catalogue of Ships and the Trojan Catalogue: every place on one map, every contingent, the whole text.">
+<meta name="twitter:image" content="https://iosiflazaridis.github.io/catalogue-of-ships/og.jpg">
+<link rel="stylesheet" href="lib/leaflet/leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="#top">ΚΑΤΑΛΟΓΟΣ ΤΩΝ ΝΕΩΝ</a>
+  <nav><a href="#map">Map</a><a href="#contingents">Contingents</a><a href="#ships">Ships</a><a href="#catalogue">Text</a><a href="#reading">Hear it</a><a href="#sources">Sources</a></nav>
+</div></header>
+
+<main>
+<section id="top" class="hero"><div class="wrap">
+  <p class="kicker">Homer, Iliad 2.484–759 and 2.816–877</p>
+  <h1 class="title-gr" lang="grc">ΚΑΤΑΛΟΓΟΣ ΤΩΝ ΝΕΩΝ</h1>
+  <h1 class="title-en">The Catalogue of Ships</h1>
+  <p class="dek">Who led the army to Troy, where each people came from, and how many ships they brought.</p>
+  <div class="intro">
+    <p>In the second book of the Iliad, nine years into the war and before the first battle of the poem, Homer calls on
+      the Muses and names the army that sailed to Troy: each people, its leaders, its towns and its ships. The list runs
+      to 266 lines (2.494–759): 29 contingents under 46 leaders, 1,186 ships, from about 190 places. It begins with the
+      Boeotians, who gathered the fleet at Aulis, goes round central Greece and the Peloponnese, across to Ithaca and
+      Aetolia in the west, to Crete and the Dodecanese, and ends in Thessaly.</p>
+    <p>A shorter list of the other side follows (2.816–877): the Trojans and their allies, sixteen peoples from Thrace
+      and Paeonia to Paphlagonia, Caria and Lycia, with their leaders and towns but no numbers.</p>
+    <p>This page records both: every place on one map, every contingent with its leaders and ships, and the whole text in
+      Greek and English, line by line, with a reading of it in reconstructed ancient Greek.</p>
+  </div>
+  <div class="glance">
+    <div><b>29</b><span>contingents</span></div>
+    <div><b>46</b><span>leaders</span></div>
+    <div><b>1,186</b><span>ships</span></div>
+    <div><b>16</b><span>Trojan peoples</span></div>
+    <div><b>228</b><span>places</span></div>
+    <div><b>338</b><span>lines</span></div>
+  </div>
+</div></section>
+
+<section id="map"><div class="wrap">
+  <h2>Every place in the Catalogue</h2>
+  <p class="lede">Gold, the Achaeans; red, the Trojans and their allies. A dot is a site located with confidence; a dashed ring is a
+    site uncertain or disputed, or the land of a people. Click a place for its picture and the line
+    that names it.</p>
+  <div class="mapctl">
+    <label><input type="checkbox" id="f-a" checked> Achaeans</label>
+    <label><input type="checkbox" id="f-t" checked> Trojans and allies</label>
+    <input type="search" id="find" list="placelist" placeholder="Find a place" aria-label="Find a place">
+    <datalist id="placelist"></datalist>
+    <span class="key"><i class="a"></i> Achaean</span><span class="key"><i class="t"></i> Trojan side</span><span class="key"><i class="r"></i> uncertain</span>
+  </div>
+  <div class="mapwrap">
+    <div class="mapbox"><div id="leaf"></div></div>
+    <aside class="panel" id="panel" aria-live="polite"></aside>
+  </div>
+  <p class="unknown"><span id="unk-n"></span> places have no known site and are not on the map:<br><span id="unknown"></span></p>
+</div></section>
+
+<section id="contingents"><div class="wrap">
+  <h2>The contingents</h2>
+  <p class="lede">In the order of the Catalogue. Click a people to read its lines, or <span class="mapic">⌖</span> to see its places on the map.</p>
+  <h3>The Achaeans <span class="h3meta">2.494–759</span></h3>
+  <div class="tablewrap"><table class="cont" id="t-achaean"></table></div>
+  <h3>The Trojans and their allies <span class="h3meta">2.816–877</span></h3>
+  <div class="tablewrap"><table class="cont" id="t-trojan"></table></div>
+</div></section>
+
+<section id="ships"><div class="wrap">
+  <h2>The ships</h2>
+  <p class="lede">Agamemnon brought 100 ships; Nireus brought 3. The ships of the 29 contingents, in the order of the Catalogue.</p>
+  <svg class="chart" id="chart" viewBox="0 0 1080 450" role="img" aria-label="Ships of each of the 29 contingents"></svg>
+  <div class="two">
+    <div>
+      <p>The 29 contingents bring 1,186 ships in all, about 41 each. Six bring more than 50: Agamemnon 100, Nestor 90,
+        Diomedes and Idomeneus 80 each, Menelaus and the Arcadians 60 each, the Arcadians in ships that Agamemnon gave
+        them, “for with matters of seafaring had they naught to do”. The smallest are Philoctetes’ 7 and the 3 of Nireus,
+        “the comeliest man that came beneath Ilios of all the Danaans after the fearless son of Peleus”.</p>
+    </div>
+    <div>
+      <p>Homer gives the crews twice: 120 young men in each Boeotian ship (2.510) and 50 rowers in each of
+        Philoctetes’ seven (2.719–720). Thucydides (1.10), who rounds the fleet to 1,200 ships, suggests taking the
+        mean of the two: about 85 men a ship, which for 1,186 ships makes some 100,000 men. The Trojans and their
+        allies are given no numbers at all.</p>
+    </div>
+  </div>
+</div></section>
+
+<section id="catalogue"><div class="wrap">
+  <h2>The text, entry by entry</h2>
+  <p class="lede">The Greek of Monro and Allen, with A. T. Murray’s translation (1924), line by line. Open an entry to read it;
+    click a place to find it on the map.</p>
+  <div class="toolbar"><button class="btn" id="openall">Open all</button><button class="btn" id="closeall">Close all</button></div>
+  <div id="entries"></div>
+</div></section>
+
+<section id="reading"><div class="wrap">
+  <h2>Hear it read</h2>
+  <p class="lede">The whole Catalogue, with the invocation and the Trojans, read in reconstructed ancient Greek (27 minutes), with
+    the Greek and an English translation on screen and each place shown as it is named.</p>
+  <div class="film nolink" id="filmbox"><div class="play"></div><div class="soon" id="filmsoon"></div></div>
+  <p class="filmmeta" id="ytlink"></p>
+  <ol class="chapters" id="chapters"></ol>
+  <p class="small">The voice is Nicola (Kokoro, through AoidosVoice), in the reconstructed pronunciation of W. S. Allen’s
+    <i>Vox Graeca</i>, with the pitch accent; all 338 lines were checked against the metre. The music is for the
+    phorminx, the singer’s lyre, in the Dorian harmonia of the enharmonic genus. Pictures from Wikimedia Commons,
+    credited on screen.</p>
+</div></section>
+
+<section id="sources"><div class="wrap">
+  <h2>Sources and credits</h2>
+  <ul class="src">
+    <li><b>Greek text:</b> Homer, <i>Iliad</i>, ed. D. B. Monro and T. W. Allen (Oxford Classical Texts, 3rd ed., 1920),
+      from the <a href="https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0012.tlg001.perseus-grc2:2/">Perseus Digital Library</a> (CC BY-SA).</li>
+    <li><b>English:</b> A. T. Murray, <i>Homer: The Iliad</i> (Loeb Classical Library, 1924), public domain, from Perseus,
+      divided at the verse ends.</li>
+    <li><b>Places:</b> <a href="https://pleiades.stoa.org/">Pleiades</a> (CC BY). Of the 228 places, <span id="n-loc"></span>
+      are located with confidence, <span id="n-unc"></span> are uncertain or disputed, and <span id="n-unk"></span> have no
+      known site. Where a site follows an ancient identification, chiefly Strabo’s or Pausanias’, the note says so.</li>
+    <li><b>Relief:</b> Terrain Tiles on AWS (Tilezen): EU-DEM (Copernicus), SRTM and GMTED2010 (U.S. Geological Survey),
+      ETOPO1 (NOAA). The coasts are today’s.</li>
+    <li><b>Pictures:</b> Wikimedia Commons, listed below with their authors and licences. Pictures under CC BY-SA are
+      shared here under the same licence.</li>
+    <li><b>Earlier work:</b> <a href="https://ships.lib.virginia.edu/">Mapping the Catalogue of Ships</a>, by Jenny Strauss
+      Clay, Courtney Evans and Ben Jasnow with the Scholars’ Lab of the University of Virginia, which maps the Catalogue as a
+      route through the landscape.</li>
+  </ul>
+  <h3>Downloads</h3>
+  <ul class="src">
+    <li><a href="dl/catalogue_places.csv" download>catalogue_places.csv</a>: the 228 places, with their Greek and English names,
+      entries and lines, status, position and notes</li>
+    <li><a href="dl/catalogue_entries.csv" download>catalogue_entries.csv</a>: the 45 entries, with their leaders, ships and places</li>
+    <li><a href="dl/catalogue_text.csv" download>catalogue_text.csv</a>: the 338 lines, Greek and English (the Greek under Perseus’s CC BY-SA)</li>
+    <li><a href="dl/catalogue_of_ships.json" download>catalogue_of_ships.json</a>: all of the above</li>
+  </ul>
+  <details class="pics"><summary>All the pictures (<span id="n-pics"></span>)</summary><ol class="pics" id="pics"></ol></details>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  Iosif Lazaridis, 2026 · made with Claude ·
+  <a href="https://www.youtube.com/channel/UCUFCnOKUFN1rge3LKAHL0Mw">YouTube</a>
+</div></footer>
+
+<div id="lb" role="dialog" aria-modal="true"><button class="x" aria-label="Close">×</button><img alt=""><div class="cap"></div></div>
+
+<script src="lib/leaflet/leaflet.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
